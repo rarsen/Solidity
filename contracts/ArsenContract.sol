@@ -9,7 +9,18 @@ contract ArsenContract is ERC20, Ownable {
     event TokensMinted(address indexed to, uint256 amount);
     event TokensBurned(address indexed from, uint256 amount);
 
-    
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe// qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe// qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe// qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
+    // qweqweqweqweqweqweqwe
     constructor(uint256 _amount) ERC20("Arsen Token", "ARS") Ownable() {
         _mint(msg.sender, _amount);
         emit TokensMinted(msg.sender, _amount);
